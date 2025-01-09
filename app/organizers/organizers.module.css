@@ -66,5 +66,9 @@
     .container h1 {
         font-size: 1.8rem;
     }
+
+    .name{
+        font-size: 1.2rem;
+    }
 }
 

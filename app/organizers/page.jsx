@@ -13,10 +13,10 @@ const Organizers = () => {
                     <div className={styles.points}>
                         <div  className={styles.innerPoints}> 
                             <Image
-                                src="/dave.jpg"
+                                src="/laxman.png"
                                 alt=""
                                 loading="lazy"
-                                width={130}
+                                width={150}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -32,10 +32,10 @@ const Organizers = () => {
 
                         <div  className={styles.innerPoints}> 
                             <Image
-                                src="/dave.jpg"
+                                src="/ankith.png"
                                 alt=""
                                 loading="lazy"
-                                width={130}
+                                width={150}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -44,7 +44,7 @@ const Organizers = () => {
                                     Ankith
                                 </div>
                                 <div className={styles.role}>
-                                    SC
+                                    Secretary
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const Organizers = () => {
                                 src="/dave.jpg"
                                 alt=""
                                 loading="lazy"
-                                width={130}
+                                width={150}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -69,17 +69,17 @@ const Organizers = () => {
                         </div>
 
                         <div  className={styles.innerPoints}> 
-                            {/* <Image
-                                src={organizer.image}
+                            <Image
+                                src="/meghana.jpg"
                                 alt=""
                                 loading="lazy"
-                                width={64}
-                                height={64}
+                                width={150}
+                                height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> */}
+                                /> 
                             <div>
                                 <div className={styles.name}>
-                                    Meghana K
+                                    Meghana
                                 </div>
                                 <div className={styles.role}>
                                     Co-Lead
@@ -88,39 +88,39 @@ const Organizers = () => {
                         </div>
 
                         <div  className={styles.innerPoints}> 
-                            {/* <Image
-                                src={organizer.image}
+                            <Image
+                                src="/nivedha.png"
                                 alt=""
                                 loading="lazy"
-                                width={64}
-                                height={64}
+                                width={150}
+                                height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> */}
+                                /> 
                             <div>
                                 <div className={styles.name}>
-                                    Dave
+                                    Nivedha
                                 </div>
                                 <div className={styles.role}>
-                                    Lead
+                                    VP
                                 </div>
                             </div>
                         </div>
 
                         <div  className={styles.innerPoints}> 
-                            {/* <Image
-                                src={organizer.image}
+                            <Image
+                                src="/nithin.png"
                                 alt=""
                                 loading="lazy"
-                                width={64}
-                                height={64}
+                                width={150}
+                                height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> */}
+                                /> 
                             <div>
                                 <div className={styles.name}>
-                                    Dave
+                                    Nithin
                                 </div>
                                 <div className={styles.role}>
-                                    Lead
+                                    Design
                                 </div>
                             </div>
                         </div>
