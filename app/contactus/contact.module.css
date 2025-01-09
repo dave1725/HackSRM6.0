@@ -1,0 +1,98 @@
+.contactUsSection {
+    min-height: 100vh;
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    background-clip: text;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .mailSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mailContainer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .mailIcon {
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem;
+    background-color: #4f46e5; /* Indigo */
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .mailText {
+    font-size: 1.875rem;
+    color: #e5e7eb; /* Gray-200 */
+  }
+  
+  .mailText a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .socialsContainer {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialWrapper {
+    background: rgba(31, 41, 55, 0.7); /* Gray-900 with opacity */
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .socialIcon {
+    color: #e5e7eb; /* Gray-200 */
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    color: #9ca3af; /* Gray-400 */
+  }
+  
+  .instagramIcon {
+    color: #d946ef; /* Fuchsia-500 */
+  }
+  
+  .linkedinIcon {
+    color: #2563eb; /* Blue-600 */
+  }
+  
+  .organizerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .organizerHeader {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e5e7eb; /* Gray-200 */
+  }
+  
+  .organizerImage {
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  

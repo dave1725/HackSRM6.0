@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;700&family=Saira+Stencil+One&display=swap');
+.temp{
+    margin-bottom: 80px;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container { 
+    font-size: x-large;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.role {
+    font-size: medium;
+    color: grey;
+    text-align: left;
+}
+
+.innerContainer{
+    margin-bottom: 100px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.container h1{
+    margin-bottom: 100px;
+}
+.container p{
+    margin-bottom: 100px;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    gap: 100px;
+    text-align: center;
+}
+
+.innerPoints{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    height: 240px;
+}
+
+.innerPoints img{
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 1.8rem;
+    }
+}
+

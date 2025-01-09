@@ -1,0 +1,118 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     /* Cyberpunk black background */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; /* Place items side by side */
+    gap: 100px; /* Space between timer and image */
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+  .innerContainer {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer {
+    text-align: center;
+    color: #fff;
+    margin-right: 6px;
+    font-family: 'Orbitron', sans-serif; /* Example Cyberpunk font */
+  }
+
+  .timer h1 {
+    font-size: 1.5rem; /* Adjust heading size */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .timer span {
+    display: inline-block;
+    width: 2ch; /* Fixed width for each number */
+    font-size: 1rem; /* Timer font size */
+  }
+
+  .discordBtn {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: indigo;
+    border-radius: 5px;
+    gap: 5px;
+    margin-top: 40px;
+    font-size: large;
+  }
+
+  .folio{
+    margin-top: -25px;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(55, 112, 255);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: large;
+  }
+
+  .discordBtn:hover {
+    color: grey;
+  }
+
+  .timer h1{
+    font-size: 25px;
+  }
+  
+  .heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack content vertically */
+    gap: 20px;
+  }
+
+  .heroImg {
+    order: 1; /* Ensure the image comes first */
+  }
+
+  .innerContainer {
+    order: 2; /* Ensure the timer and button come after the image */
+    align-items: center;
+    text-align: center;
+  }
+
+  .timer h1{
+    font-size: 1rem;
+  }
+
+  .discordBtn {
+    padding: 8px 16px;
+    font-size: 0.9rem; /* Adjust size */
+  }
+
+  .heroImg img {
+    height: 50%;
+    width: 80%; /* Reduce image size on mobile */
+    max-width: 400px; /* Limit maximum size */
+  }
+}
