@@ -1,10 +1,23 @@
+'use client'
 import React from 'react';
 import styles from "./hero.module.css";
 import CountdownTimer from '../timer/timer';
 import Image from 'next/image';
 import { IconBrandDiscord } from "@tabler/icons-react";
 
+
+
 const hero = () => {
+    React.useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        }
+    }, []);
   return (
     <>
         <div className={styles.wrapper}>
@@ -25,13 +38,18 @@ const hero = () => {
                         <IconBrandDiscord size={24} />
                         <span>Join Discord</span>
                         </a>
-                        <a
+                        <div 
+                            className={styles.folio} 
+                            data-hackathon-slug="hack-srm25" 
+                            data-button-theme="light"
+                        ></div>
+                        {/* <a
                             href="https://hack-srm24.devfolio.co/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                         <span className={styles.folio}>Devfolio</span>
-                        </a>
+                        </a> */}
                 </div>
                 
                 <div className={styles.heroImg}>

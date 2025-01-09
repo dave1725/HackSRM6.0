@@ -44,7 +44,7 @@ const Sponsors = () => {
                         <div  className={styles.innerPoints}> 
                             <Image
                                     src="/ethindia.png"
-                                    alt="HackSRM Logo"
+                                    alt="ETHINDIA LOGO"
                                     width={300}
                                     height={100}
                             />
@@ -52,7 +52,7 @@ const Sponsors = () => {
                         <div  className={styles.innerPoints}> 
                             <Image
                                     src="/devfolio.png"
-                                    alt="HackSRM Logo"
+                                    alt="DEVFOLIO LOGO"
                                     width={300}
                                     height={100}
                             />
@@ -60,7 +60,7 @@ const Sponsors = () => {
                         <div  className={styles.innerPoints}> 
                             <Image
                                     src="/polygon.png"
-                                    alt="HackSRM Logo"
+                                    alt="POLYGON LOGO"
                                     width={300}
                                     height={100}
                             />
