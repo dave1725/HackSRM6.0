@@ -42,6 +42,7 @@ const hero = () => {
                             className={styles.folio} 
                             data-hackathon-slug="hack-srm25" 
                             data-button-theme="light"
+                            
                         ></div>
                         {/* <a
                             href="https://hack-srm24.devfolio.co/"
