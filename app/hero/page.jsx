@@ -5,8 +5,6 @@ import CountdownTimer from '../timer/timer';
 import Image from 'next/image';
 import { IconBrandDiscord } from "@tabler/icons-react";
 
-
-
 const hero = () => {
     React.useEffect(() => {
         const script = document.createElement('script');
@@ -38,19 +36,18 @@ const hero = () => {
                         <IconBrandDiscord size={24} />
                         <span>Join Discord</span>
                         </a>
-                        <div 
+                        {/* <div 
                             className={styles.folio} 
                             data-hackathon-slug="hack-srm25" 
                             data-button-theme="light"
-                            
-                        ></div>
-                        {/* <a
-                            href="https://hack-srm24.devfolio.co/"
+                        ></div> */}
+                        <a
+                            href="https://hack-srm25.devfolio.co/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                         <span className={styles.folio}>Devfolio</span>
-                        </a> */}
+                        </a> 
                 </div>
                 
                 <div className={styles.heroImg}>

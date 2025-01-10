@@ -32,6 +32,25 @@ const Organizers = () => {
 
                         <div  className={styles.innerPoints}> 
                             <Image
+                                src="/nivedha.png"
+                                alt=""
+                                loading="lazy"
+                                width={150}
+                                height={220}
+                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
+                                /> 
+                            <div>
+                                <div className={styles.name}>
+                                    Nivedha
+                                </div>
+                                <div className={styles.role}>
+                                    VP
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  className={styles.innerPoints}> 
+                            <Image
                                 src="/ankith.png"
                                 alt=""
                                 loading="lazy"
@@ -70,13 +89,13 @@ const Organizers = () => {
 
                         <div  className={styles.innerPoints}> 
                             <Image
-                                src="/meghana.jpg"
+                                src="/meghana.JPG"
                                 alt=""
                                 loading="lazy"
                                 width={150}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> 
+                            /> 
                             <div>
                                 <div className={styles.name}>
                                     Meghana
@@ -87,24 +106,7 @@ const Organizers = () => {
                             </div>
                         </div>
 
-                        <div  className={styles.innerPoints}> 
-                            <Image
-                                src="/nivedha.png"
-                                alt=""
-                                loading="lazy"
-                                width={150}
-                                height={220}
-                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> 
-                            <div>
-                                <div className={styles.name}>
-                                    Nivedha
-                                </div>
-                                <div className={styles.role}>
-                                    VP
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <div  className={styles.innerPoints}> 
                             <Image
@@ -124,7 +126,25 @@ const Organizers = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
+                        <div  className={styles.innerPoints}> 
+                            <Image
+                                src="/rishabh.png"
+                                alt=""
+                                loading="lazy"
+                                width={150}
+                                height={220}
+                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
+                                /> 
+                            <div>
+                                <div className={styles.name}>
+                                    Rishabh
+                                </div>
+                                <div className={styles.role}>
+                                    Treasurer
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
