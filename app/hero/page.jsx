@@ -28,7 +28,7 @@ const hero = () => {
                         </div>
                     </div>
                     <a
-                            href="https://discord.gg/H7tcpbv7Vq"
+                            href="https://discord.gg/GuQqY6AdRp"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.discordBtn}
