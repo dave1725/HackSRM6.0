@@ -119,10 +119,10 @@ const Organizers = () => {
                                 /> 
                             <div>
                                 <div className={styles.name}>
-                                    Nithin
+                                    Nithenn
                                 </div>
                                 <div className={styles.role}>
-                                    Design
+                                    Technical
                                 </div>
                             </div>
                         </div>
