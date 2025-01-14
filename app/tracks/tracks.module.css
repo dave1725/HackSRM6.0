@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rebeccapurple;
+    background-color: purple;
     height: 70px;
     width: 60px;
     border-radius: 100%;
@@ -60,7 +60,10 @@
     width: 600px;
     height: 250px;
     text-align: center; /* Center-align text */
+}
 
+.aptos img{
+    border-radius: 10px;
 }
 
 .innerPoints h3{

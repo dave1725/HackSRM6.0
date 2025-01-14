@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { IconBrandDiscord } from "@tabler/icons-react";
 
 const hero = () => {
+
     React.useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://apply.devfolio.co/v2/sdk.js';
@@ -16,6 +17,7 @@ const hero = () => {
           document.body.removeChild(script);
         }
     }, []);
+
   return (
     <>
         <div className={styles.wrapper}>
@@ -28,26 +30,28 @@ const hero = () => {
                         </div>
                     </div>
                     <a
-                            href="https://discord.gg/GuQqY6AdRp"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={styles.discordBtn}
-                        >
+                        href="https://discord.gg/GuQqY6AdRp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.discordBtn}
+                    >
                         <IconBrandDiscord size={24} />
                         <span>Join Discord</span>
-                        </a>
-                        {/* <div 
-                            className={styles.folio} 
-                            data-hackathon-slug="hack-srm25" 
-                            data-button-theme="light"
-                        ></div> */}
-                        <a
-                            href="https://hack-srm25.devfolio.co/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                    </a>
+                
+                    {/* <div 
+                        className="apply-button" 
+                        data-hackathon-slug="hack-srm25" 
+                        data-button-theme="light"
+                    ></div> */}
+
+                    <a
+                        href="https://hack-srm25.devfolio.co/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <span className={styles.folio}>Devfolio</span>
-                        </a> 
+                    </a> 
                 </div>
                 
                 <div className={styles.heroImg}>

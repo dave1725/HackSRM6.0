@@ -65,9 +65,18 @@ const Sponsors = () => {
                                     height={100}
                             />
                         </div>
-                        <div  className={styles.innerPoints}>
-                            
+
+                        <div  className={styles.innerPoints}> 
+                            <Image
+                                    className='aptos'
+                                    src="/aptos.jpg"
+                                    alt="POLYGON LOGO"
+                                    width={300}
+                                    height={100}
+                            />
                         </div>
+
+
                     </div>
                 </div>
             </div>

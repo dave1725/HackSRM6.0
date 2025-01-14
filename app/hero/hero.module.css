@@ -3,13 +3,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-     /* Cyberpunk black background */
   }
   
   .container {
     display: flex;
-    flex-direction: row; /* Place items side by side */
-    gap: 100px; /* Space between timer and image */
+    flex-direction: row; 
+    gap: 100px; 
     align-items: center;
     justify-content: center;
     margin-top: -20px;
@@ -49,7 +48,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: indigo;
+    background-color: purple;
     border-radius: 5px;
     gap: 5px;
     margin-top: 40px;

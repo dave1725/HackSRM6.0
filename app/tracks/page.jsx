@@ -25,32 +25,32 @@ const data = [
   },
   {
     icon: <IconRobot stroke={1.5} className={styles.icon} />,
-    title: "AI & ML { 10K INR }",
+    title: "AI & ML{ 10K INR }",
     subtitle:"10k INR",
     description:
       "Create innovative applications that leverage machine learning algorithms to solve complex problems, natural language and computer vision.",
   },
   {
     icon: <IconCircuitDiodeZener stroke={1.5} className={styles.icon} />,
-    title: "I-O-T { 10K INR }",
+    title: "I-O-T{ 10K INR }",
     description:
       "Build connected devices and systems that collect and analyze data in real-time, creating innovative solutions that improve efficiency."
   },
   {
     icon: <IconCurrencyEthereum stroke={1.5} className={styles.icon} />,
-    title: "Web 3.0 { 10K INR }",
+    title: "Web 3.0{ 10K INR }",
     description:
       "Build decentralized applications (dApps) that run on the blockchain, smart contracts to facilitate secure and transparent transactions.",
   },
   {
     icon: <IconBrandOpenSource stroke={1.5} className={styles.icon} />,
-    title: "Open Innovation { 10K INR }",
+    title: "Open Innovation{ 10K INR }",
     description:
       "Make Best use of Technology to solve real world problems and make a difference.",
   },
   {
     icon: <IconCardboards stroke={1.5} className={styles.icon} />,
-    title: "AR/VR { 10K INR }",
+    title: "AR/VR{ 10K INR }",
     description:
       "Dive into the world of AR/VR and craft immersive experiences that merge reality with innovation. Create games, simulations, or tools that redefine what's possible."
   }  
