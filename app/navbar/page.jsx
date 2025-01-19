@@ -12,7 +12,7 @@ const NavLinks = [
   { name: "FAQs", link: "FAQS" },
 ];
 
-const Navbar = () => {
+const Navbar = (section) => {
   const [openMenu, setOpenMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
           <span className={openMenu ? styles.barActive2 : styles.bar}></span>
           <span className={openMenu ? styles.barActive3 : styles.bar}></span>
         </div>
-
+        
         {/* Links Section */}
         <div className={`${styles.navbarInner} ${openMenu ? styles.showMenu : ''}`}>
           {NavLinks.map((item, index) => (

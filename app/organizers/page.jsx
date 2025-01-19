@@ -16,7 +16,7 @@ const Organizers = () => {
                                 src="/laxman.png"
                                 alt=""
                                 loading="lazy"
-                                width={150}
+                                width={170}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -35,7 +35,7 @@ const Organizers = () => {
                                 src="/nivedha.png"
                                 alt=""
                                 loading="lazy"
-                                width={150}
+                                width={170}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -54,7 +54,7 @@ const Organizers = () => {
                                 src="/ankith.png"
                                 alt=""
                                 loading="lazy"
-                                width={150}
+                                width={170}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -69,11 +69,30 @@ const Organizers = () => {
                         </div>
 
                         <div  className={styles.innerPoints}> 
+                            <Image
+                                src="/rishabh.png"
+                                alt=""
+                                loading="lazy"
+                                width={170}
+                                height={220}
+                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
+                                /> 
+                            <div>
+                                <div className={styles.name}>
+                                    Rishabh
+                                </div>
+                                <div className={styles.role}>
+                                    Treasurer
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  className={styles.innerPoints}> 
                              <Image
                                 src="/dave.jpg"
                                 alt=""
                                 loading="lazy"
-                                width={150}
+                                width={170}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -92,7 +111,7 @@ const Organizers = () => {
                                 src="/meghana.JPG"
                                 alt=""
                                 loading="lazy"
-                                width={150}
+                                width={170}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                             /> 
@@ -113,7 +132,7 @@ const Organizers = () => {
                                 src="/nithin.png"
                                 alt=""
                                 loading="lazy"
-                                width={150}
+                                width={170}
                                 height={220}
                                 className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
@@ -127,24 +146,7 @@ const Organizers = () => {
                             </div>
                         </div>
 
-                        <div  className={styles.innerPoints}> 
-                            <Image
-                                src="/rishabh.png"
-                                alt=""
-                                loading="lazy"
-                                width={150}
-                                height={220}
-                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> 
-                            <div>
-                                <div className={styles.name}>
-                                    Rishabh
-                                </div>
-                                <div className={styles.role}>
-                                    Treasurer
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

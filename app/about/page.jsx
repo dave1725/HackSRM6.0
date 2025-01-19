@@ -9,25 +9,25 @@ import {
 
   const data = [
     {
-      icon: <IconHexagon3d stroke={1.5} className="h-8 w-8 text-white" />,
+      icon: <IconHexagon3d stroke={1.5} size={40} className="h-8 w-8 text-white" />,
       title: "Experience",
       description:
         "Participating in a hackathon offers an opportunity to work collaboratively with like-minded individuals to develop creative solutions to real-world problems.",
     },
     {
-      icon: <IconBroadcast stroke={1.5} className="h-8 w-8 text-white" />,
+      icon: <IconBroadcast stroke={1.5} size={40} className="h-8 w-8 text-white" />,
       title: "Networking",
       description:
         "Networking is the act of creating and maintaining relationships with individuals and groups in order to exchange information, ideas, and opportunities. ",
     },
     {
-      icon: <IconAward stroke={1.5} className="h-8 w-8 text-white" />,
+      icon: <IconAward stroke={1.5} size={40} className="h-8 w-8 text-white" />,
       title: "Prizes",
       description:
         "A great way to win prizes and gain recognition for your work. The prizes can range from cash to internships, and the recognition can be in the form of a job offer or a scholarship.",
     },
     {
-      icon: <IconRocket stroke={1.5} className="h-8 w-8 text-white" />,
+      icon: <IconRocket stroke={1.5} size={40} className="h-8 w-8 text-white" />,
       title: "Fun",
       description:
         "Hackathons are a great way to meet new people, learn new skills, and have fun. You can also win prizes for your work.",

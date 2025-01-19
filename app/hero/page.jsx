@@ -4,6 +4,7 @@ import styles from "./hero.module.css";
 import CountdownTimer from '../timer/timer';
 import Image from 'next/image';
 import { IconBrandDiscord } from "@tabler/icons-react";
+import Navbar from '../navbar/page';
 
 const hero = () => {
 
@@ -58,8 +59,8 @@ const hero = () => {
                     <Image
                         src="/hack-srm-logo.png"
                         alt="HackSRM Logo"
-                        width={700}
-                        height={500}
+                        width={720}
+                        height={600}
                     />
                 </div>
             </div>

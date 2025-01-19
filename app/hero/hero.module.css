@@ -8,9 +8,10 @@
   .container {
     display: flex;
     flex-direction: row; 
-    gap: 100px; 
+    gap: 50px; 
     align-items: center;
     justify-content: center;
+    justify-items: center;
     margin-top: -20px;
   }
 
@@ -19,13 +20,13 @@
     gap: 50px;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
     align-items: center;
   }
   
   .timer {
     text-align: center;
     color: #fff;
-    margin-right: 6px;
     font-family: 'Orbitron', sans-serif; /* Example Cyberpunk font */
   }
 
@@ -67,6 +68,7 @@
     margin-top: 40px;
     font-size: large;
     margin-top: -40px;
+    font-family: "Orbitron","sans-serif";
     background-color: rgb(55, 112, 255);
   }
 
@@ -83,6 +85,61 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 1280px) {
+    .container {
+      gap: 5px; /* Reduce gap for mid-sized devices */
+    }
+
+    .heroImg img{
+      height: 100%;
+      width: 80%; /* Reduce image size on mobile */
+      max-width: 950px; /* Limit maximum size */
+    }
+
+    .timer h1 {
+      font-size: 1.25rem;
+    }
+    .timer{
+      margin-left: 30px;
+    }
+
+    .discordBtn, .folio {
+      width: 250px;
+      height: 45px;
+      font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 1024px) {
+  .heroImg img{
+    height: 50%;
+    width: 80%; /* Reduce image size on mobile */
+    max-width: 700px; /* Limit maximum size */
+  }
+  .container{
+    flex-direction: column;
+  }
+  .innerContainer{
+    order: 2;
+  }
+  .timer{
+    margin-left: 20px;
+  }
+
+  .heroImg img{
+    height: 50%;
+    width: 80%; /* Reduce image size on mobile */
+    max-width: 500px; /* Limit maximum size */
+  }
+
+  .discordBtn, .folio {
+    width: 350px;
+    height: 45px;
+    font-size: 0.95rem;
+  }
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -102,10 +159,16 @@
   }
 
   .timer h1{
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+  .timer{
+    margin: 0;
   }
 
-  .discordBtn {
+    .discordBtn, .folio {
+      width: 300px;
+      height: 45px;
+      font-size: 0.95rem;
     padding: 8px 16px;
     font-size: 0.9rem; /* Adjust size */
   }
@@ -116,3 +179,29 @@
     max-width: 400px; /* Limit maximum size */
   }
 }
+
+/* iPad-specific styles (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+      flex-direction: column; /* Stack content vertically for better fit */
+      gap: 40px; /* Moderate spacing for iPads */
+  }
+
+  .heroImg {
+      order: 1; /* Ensure the image appears first */
+      text-align: center;
+  }
+
+  .heroImg img {
+      width: 200%; /* Moderate size for iPads */
+      max-width: 700px;
+      height: 300px; /* Maintain aspect ratio */
+  }
+
+  .innerContainer {
+      order: 2; /* Ensure timer and buttons come after the image */
+      align-items: center; /* Center-align content */
+      gap: 50px; /* Adjust spacing between timer and buttons */
+  }
+}
+
