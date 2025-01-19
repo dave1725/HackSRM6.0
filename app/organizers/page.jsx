@@ -100,7 +100,7 @@ const Organizers = () => {
                                     Nithenn
                                 </div>
                                 <div className={styles.role}>
-                                    Technical
+                                    Technical Executive
                                 </div>
                             </div>
                         </div>
