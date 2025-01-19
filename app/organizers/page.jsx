@@ -18,14 +18,13 @@ const Organizers = () => {
                                 loading="lazy"
                                 width={170}
                                 height={220}
-                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
                                 /> 
                             <div>
                                 <div className={styles.name}>
                                     Laxman
                                 </div>
                                 <div className={styles.role}>
-                                    President, SC
+                                    President
                                 </div>
                             </div>
                         </div>
@@ -44,7 +43,7 @@ const Organizers = () => {
                                     Nivedha
                                 </div>
                                 <div className={styles.role}>
-                                    VP
+                                    Vice President
                                 </div>
                             </div>
                         </div>
@@ -63,7 +62,7 @@ const Organizers = () => {
                                     Ankith
                                 </div>
                                 <div className={styles.role}>
-                                    Secretary
+                                    General Secretary
                                 </div>
                             </div>
                         </div>
@@ -101,7 +100,7 @@ const Organizers = () => {
                                     Dave
                                 </div>
                                 <div className={styles.role}>
-                                    Lead
+                                    HackSRM Lead
                                 </div>
                             </div>
                         </div>
@@ -120,7 +119,7 @@ const Organizers = () => {
                                     Meghana
                                 </div>
                                 <div className={styles.role}>
-                                    Co-Lead
+                                    HackSRM Co-Lead
                                 </div>
                             </div>
                         </div>
