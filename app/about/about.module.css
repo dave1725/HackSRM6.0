@@ -14,7 +14,7 @@
     z-index: -9999;
     display: flex;
     flex-direction: column;
-    transform: translateX(5%);
+    transform: translateX(0%);
 }
 
 .innerContainer {
@@ -31,15 +31,18 @@
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 20px;
     line-height: 1.5;
+    margin-left: 2em;
 }
 
 .innerContainer p{
     font-family: 'Roboto Mono', monospace;
     font-size: large;
+    margin-left: 4.2em;
 }
 
 .points {
   display: flex;
+  justify-content: center;
   text-align: center;
   flex-wrap: wrap;
   gap: 40px;
@@ -84,8 +87,8 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .wrapper {
-      padding: 30px 15px;
       width: 400px;
+      margin-left: -0.8em;
     }
   
     .innerContainer h2 {
@@ -95,13 +98,7 @@
     .innerContainer p {
       font-size: 0.8rem;
     }
-  
-    .points {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-    }
+
   
     .innerPoints {
       width: 80%; /* Full width on smaller screens */
