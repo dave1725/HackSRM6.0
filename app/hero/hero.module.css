@@ -87,7 +87,7 @@
     object-fit: cover;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1290px) {
     .container {
       gap: 5px; /* Reduce gap for mid-sized devices */
     }
