@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, { lazy } from 'react';
 import styles from "./hero.module.css";
 import CountdownTimer from '../timer/timer';
 import Image from 'next/image';
@@ -59,6 +59,7 @@ const hero = () => {
                     <Image
                         src="/hack-srm-logo.png"
                         alt="HackSRM Logo"
+                        loading='lazy'
                         width={720}
                         height={600}
                     />

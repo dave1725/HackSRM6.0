@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Sponsors = () => {
   return (
     <>
-        <div id="Sponsors" className={styles.temp}></div>
+        <section id="Sponsors" className={styles.temp}></section>
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <h1 id={styles.gold}>GOLD SPONSORS</h1>

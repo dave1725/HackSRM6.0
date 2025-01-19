@@ -87,6 +87,25 @@ const Organizers = () => {
                         </div>
 
                         <div  className={styles.innerPoints}> 
+                            <Image
+                                src="/nithin.png"
+                                alt=""
+                                loading="lazy"
+                                width={170}
+                                height={220}
+                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
+                                /> 
+                            <div>
+                                <div className={styles.name}>
+                                    Nithenn
+                                </div>
+                                <div className={styles.role}>
+                                    Technical
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  className={styles.innerPoints}> 
                              <Image
                                 src="/dave.jpg"
                                 alt=""
@@ -123,29 +142,6 @@ const Organizers = () => {
                                 </div>
                             </div>
                         </div>
-
-                        
-
-                        <div  className={styles.innerPoints}> 
-                            <Image
-                                src="/nithin.png"
-                                alt=""
-                                loading="lazy"
-                                width={170}
-                                height={220}
-                                className="rounded-md object-cover object-center sm:h-32 sm:w-36 md:h-40 md:w-40"
-                                /> 
-                            <div>
-                                <div className={styles.name}>
-                                    Nithenn
-                                </div>
-                                <div className={styles.role}>
-                                    Technical
-                                </div>
-                            </div>
-                        </div>
-
-                        
                     </div>
                 </div>
             </div>
